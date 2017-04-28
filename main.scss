@@ -28,6 +28,9 @@ section {
                 color: rgba($foreground, 0.7);
                 font-style: italic;
                 margin-bottom: 4px;
+                @media print {
+                    color: rgba(#000, 0.7);
+                }
             }
         }
     }

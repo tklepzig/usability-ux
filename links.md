@@ -1,2 +1,3 @@
 - http://www.userfocus.co.uk/resources/guidelines.html
 - https://de.wikipedia.org/wiki/EN_ISO_9241#EN_ISO_9241-110_Grunds.C3.A4tze_der_Dialoggestaltung
+- https://www.cobocards.com/pool/de/card/7de360114/online-karteikarten-was-sind-die-zehn-usability-heuristiken-nach-jakob-nielsen-und-rolf-molich-/

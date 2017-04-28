@@ -18,6 +18,9 @@ section {
         display: inline-block;
         border-bottom: 1px solid rgba($foreground, 0.5);
         line-height: 1.1;
+        @media print {
+            border-bottom-color: (#000, 0.5);
+        }
     }
     >ul {
         >li {

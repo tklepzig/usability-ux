@@ -1,0 +1,34 @@
+$foreground: #ededed;
+$background: #1d1d1d;
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: $background;
+    color: $foreground;
+    column-count: 2;
+    @media print {
+        background: #fff;
+        color: #000;
+    }
+}
+
+section {
+    >header {
+        font-weight: lighter;
+        font-size: 1.3em;
+        display: inline-block;
+        border-bottom: 1px solid rgba($foreground, 0.5);
+        line-height: 1.1;
+    }
+    >ul {
+        >li {
+            font-weight: 600;
+            >span {
+                font-weight: normal;
+                display: block;
+                color: rgba($foreground, 0.7);
+                font-style: italic;
+                margin-bottom: 4px;
+            }
+        }
+    }
+}

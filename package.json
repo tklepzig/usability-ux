@@ -1,0 +1,11 @@
+{
+  "name": "usability-ux",
+  "version": "1.0.0",
+  "scripts": {
+    "scss": "node-sass main.scss main.min.css --output-style compressed",
+    "scss-watch": "node-sass -w main.scss main.min.css --output-style compressed"
+  },
+  "devDependencies": {
+    "node-sass": "^4.5.0"
+  }
+}

@@ -4,7 +4,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: $background;
     color: $foreground;
-    column-count: 2;
+    column-count: 3;
     @media print {
         background: #fff;
         color: #000;
@@ -37,4 +37,20 @@ section {
             }
         }
     }
+    &#ucd {
+        width: 600px;
+        height: 400px;
+        background: url(images/ucd-dark.png);
+        background-size: contain;
+        background-position: center center;
+        background-repeat: no-repeat;
+        @media print {
+            background: url(images/ucd.png);
+        }
+    }
+}
+
+.break-before {
+    -webkit-column-break-before: always;
+    break-before: column;
 }

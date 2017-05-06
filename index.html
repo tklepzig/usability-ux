@@ -10,33 +10,101 @@
 
 <body>
     <section>
-        <header>Überschrift??</header>
+        <header>Nielsen Heuristiken</header>
         <ul>
-            <li>Diskrepanz zwischen Mentalem Modell von Entwickler und Benutzer</li>
-            <li>Nutzungskontext: Benutzer, Aufgabe, Ausstattung, Umgebung</li>
-            <li>Herausfinden, was der Benutzer <i class="accent">wirklich</i> braucht, nicht was er glaubt zu brauchen (Nachhaken,
-                Nachhaken, Nachhaken)</li>
+            <li>Sichtbarkeit des Systemzustandes
+                <span>
+                    <ul>
+                        <li>System sollte immer über aktuelle Aktion informieren</li>
+                        <li>System sollte mit angemessener, verständlicher Antwort in vernünftiger Zeit (wenige Sekunden) reagieren</li>
+                    </ul>
+                </span>
+            </li>
+            <li>
+                Übereinstimmung zwischen System und der Realwelt
+                <span>
+                    <ul>
+                        <li>System sollte die Sprache des Anwenders sprechen, keine Codes</li>
+                        <li>Konventionen der realen Welt beachten</li>
+                        <li>Informationen und Meldungen in natürlicher und logischer Reihenfolge anzeigen</li>
+                    </ul>
+                </span>
+            </li>
+            <li>
+                Benutzerkontrolle und Zufriedenheit
+                <span>
+                    <ul>
+                        <li>Benutzer macht Fehler &rarr; Deutlich markierter Notausgang muss ersichtlich sein, einfach absolvierbar ohne aufwendige Dialoge</li>
+                        <li>Funktionen wie Rückgängig und Wiederholen sollten vorhanden sein</li>
+                    </ul>
+                </span>
+            </li>
+            <li>
+                Konsistenz und Standards
+                <span>
+                    <ul>
+                        <li>Gleiche Sachverhalte einheitlich darstellen</li>
+                        <li>Benutzer sollte nicht über unterschiedliche Begriffe, Situationen oder Aktionen, welche dieselbe Sache beschreiben, stolpern</li>
+                    </ul>
+                </span>
+            </li>
+            <li>
+                Fehlerprävention
+                <span>
+                    <ul>
+                        <li>Umsichtiges Design, welches Fehler vorbeugt, ist besser als gute Fehlermeldung</li>
+                        <li>Mehrdeutigkeit und Unübersichtlichkeit vermeiden, unwichtige Informationen verbergen</li>
+                    </ul>
+                </span>
+            </li>
+            <li>
+                Erkennen ist besser als Erinnern
+                <span>
+                    <ul>
+                        <li>Objekte, Aktionen und Optionen sollten sichtbar sein, wann immer sie gebraucht werden</li>
+                        <li>Anwender sollte sich nicht an jede Dialogreihenfolge erinnern müssen</li>
+                    </ul>
+                </span>
+            </li>
+            <li>
+                Flexibilität und Effizienz
+                <span>
+                    <ul>
+                        <li>Abkürzungen (Icons, Tastaturkürzel) dem erfahrenen Benutzer bereitstellen</li>
+                        <li>Anwender sollte diese selbst gestalten können</li>
+                    </ul>
+                </span>
+            </li>
+            <li>
+                Ästhetik und minimales Design
+                <span>
+                    <ul>
+                        <li>Keine unwichtigen oder ungewöhnlichen Infos in Dialogen, sie verschleiern die relevanten Infos</li>
+                        <li>So kurz und gehaltvoll wie möglich</li>
+                    </ul>
+                </span>
+            </li>
+            <li>
+                Hilfe für den Anwender beim Erkennen, Diagnostizieren und Rückgängig machen von Fehlern
+                <span>
+                    <ul>
+                        <li>Fehlermeldungen in einfacher Sprache, keine Codes</li>
+                        <li>Präzise Beschreibung der Fehlerursache und Lösungsweg aufzeigen</li>
+                    </ul>
+                </span>
+            </li>
+            <li>
+                Hilfe und Dokumentation
+                <span>
+                    <ul>
+                        <li>Idealzustand: Keine Dokumentation nötig</li>
+                        <li>Infos sollten leicht zu finden sein und konkrete Schritte für die aktuelle Aufgabe des Benutzers liefern</li>
+                    </ul>
+                </span>
+            </li>
         </ul>
     </section>
-
-    <section>
-        <header>UCD (Bild)</header>
-    </section>
-
-    <section>
-        <header>Basics of good Design</header>
-        <ul>
-            <li>1. roter Zettel</li>
-        </ul>
-    </section>
-    <section>
-        <header>Designing Good Behaviour</header>
-        <ul>
-            <li>2. roter Zettel</li>
-        </ul>
-    </section>
-
-    <section>
+    <section class="break-before">
         <header>Anforderungen an die Gebrauchstauglichkeit (DIN ISO 9241-11)</header>
         <ul>
             <li>Effektivität
@@ -50,83 +118,34 @@
             </li>
         </ul>
     </section>
-    <section>
-        <header>Nielsen Heuristiken</header>
-        <ul>
-            <li>Sichtbarkeit des Systemzustandes
-                <span>
-                    Das System sollte zu jedem Zeitpunkt den Benutzer darüber informieren, womit es sich gerade beschäftigt. Das System sollte mit einer angemessenen Antwort (d.h. verständlich) in vernünftiger Zeit (d.h. innerhalb weniger Sekunden) reagieren.
-                </span>
-            </li>
-            <li>
-                Übereinstimmung zwischen System und der Realwelt
-                <span>
-                    Das System sollte die Sprache des Anwenders sprechen, mit Worten, Phrasen und Konzepten, welche dem Benutzer vertraut sind. Es sollten weniger system-orientierte Meldungen, insbesondere keine Codes verwendet werden. Zusätzlich sollte den Konventionen der realen Welt Rechnung getragen werden. Die Informationen bzw. Meldungen müssen in natürlicher und logischer Reihenfolge angezeigt werden.
-                </span>
-            </li>
-            <li>
-                Benutzerkontrolle und Zufriedenheit
-                <span>
-                    Der Benutzer macht bei der Bedienung des Systems, d.h. bei der Auswahl von Systemfunktionen Fehler. Dann braucht er einen deutlich markierten Notausgang, um die unerwünschte Auswahl rückgängig machen zu können. Dies sollte er können, ohne aufwendige Dialoge absolvieren zu müssen. Funktionen wie Rückgängig und Wiederholen sollten von einer Software unterstützt werden.
-                </span>
-            </li>
-            <li>
-                Konsistenz und Standards
-                <span>
-                    Der Benutzer sollte nicht über unterschiedliche Terminologien, Situationen oder Aktionen, welche eigentlich dieselbe Sache beschreiben, stolpern. Eine Anwendung sollte deshalb den Plattformkonventionen folgen und gleiche Sachverhalte einheitlich darstellen.
-                </span>
-            </li>
-            <li>
-                Fehlerprävention
-                <span>
-                    Ein umsichtiges Design, welches Fehlern vorbeugt, bevor sie auftreten können ist immer besser als eine gute Fehlermeldung. Deshalb sollten Mehrdeutigkeit und Unübersichtlichkeit vermieden werden sowie unwichtige Informationen verborgen bleiben.
-                </span>
-            </li>
-            <li>
-                Erkennen ist besser als Erinnern
-                <span>
-                    Objekte, Aktionen und Optionen sollten sichtbar sein, d.h. auf der Oberfläche verfügbar sein. Der Anwender sollte sich nicht an jede Dialogreihenfolge erinnern müssen, wie er Instruktionen für das Benutzen des Systems erreichen kann. Sie sollten erreichbar sein, wann immer sie gebraucht werden.
-                </span>
-            </li>
-            <li>
-                Flexibilität und Effizienz
-                <span>
-                    Beschleunigungen oder Abkürzungen (zum Beispiel Icon in Toolbars oder Tastaturkürzel), welche vom unerfahrenen Anwender nicht gesehen und nicht gebraucht werden, können häufig die Geschwindigkeit der Benutzung für erfahrene Anwender erhöhen. Der Anwender sollte diese zudem selbst gestalten können.
-                </span>
-            </li>
-            <li>
-                Ästhetik und minimales Design
-                <span>
-                    Dialoge sollten keine Informationen enthalten, welche unwichtig oder ungewöhnlich sind. Jede zusätzliche Information in einem Dialog steht im Wettbewerb mit den relevanten Informationen und vermindern ihre relative Sichtbarkeit. Informationen sollten stets so kurz und gehaltvoll wie möglich sein, d.h. jegliche unnötige Information sollte vermieden werden.
-                </span>
-            </li>
-            <li>
-                Hilfe für den Anwender beim Erkennen, Diagnostizieren und Rückgängig machen von Fehlern
-                <span>
-                    Fehlermeldungen sollten in einfacher Sprache erfolgen. Es sollten keine Codes oder dem Anwender unverständliche Meldungen ausgegeben werden. Sie sollten die Ursache des Problems präzise beschreiben und konstruktiv einen Lösungsweg aufzeigen. Der einfachste Lösungsweg ist das Rückgängig machen von Fehlern.
-                </span>
-            </li>
-            <li>
-                Hilfe und Dokumentation
-                <span>
-                    In jedem Fall ist es besser, wenn das System ohne Dokumentation verwendet werden kann. Es kann Hilfe und Dokumentation angeboten werden. In diesem Fall sollte jede Information leicht zu suchen und zu finden sein. Die Hilfe sollte auf die Aufgabe, welche der Anwender gerade bewältigt, fokussiert sein. Es sollte eine konkrete Liste von Schritten ausgegeben werden, welche einen Lösungsweg für die Aufgabe beschreibt und den Anwender möglichst schnell zum Ziel führt.
-                </span>
-            </li>
-        </ul>
-    </section>
+    <section id="ucd"></section>
     <section>
         <header>7 Grundsätze der Informationsdarstellung</header>
         <ul>
-            <li>Erkennbarkeit</li>
-            <li>Unterscheidbarkeit</li>
-            <li>Lesbarkeit</li>
-            <li>Verständlichkeit</li>
-            <li>Klarheit</li>
-            <li>Kompaktheit/ Prägnanz</li>
-            <li>Konsistenz</li>
+            <li>Erkennbarkeit
+                <span>Aufmerksamkeit des Benutzers zur benötigten Information lenken</span>
+            </li>
+            <li>Unterscheidbarkeit
+                <span>Angezeigte Information kann genau von anderen Daten unterschieden werden</span>
+            </li>
+            <li>Lesbarkeit
+                <span>Informationen sind leicht zu lesen</span>
+            </li>
+            <li>Verständlichkeit
+                <span>Bedeutung ist leicht verständlich, eindeutig, vermittelbar und erkennbar</span>
+            </li>
+            <li>Klarheit
+                <span>Informationsgehalt wird schnell und genau vermittelt</span>
+            </li>
+            <li>Kompaktheit/ Prägnanz
+                <span>Benutzer wird nur die Information gegeben, die für das Erledigen der Aufgabe notwendig ist</span>
+            </li>
+            <li>Konsistenz
+                <span>Gleiche Information wird innerhalb der Anwendung entsprechend den Erwartungen des Benutzers stets auf die gleiche Art dargestellt</span>
+            </li>
         </ul>
     </section>
-    <section>
+    <section class="break-before">
         <header>Dialogprinzipien (DIN ISO 9241-110)</header>
         <ul>
             <li>Aufgabenangemessenheit
@@ -181,7 +200,28 @@
             </li>
         </ul>
     </section>
+    <section>
+        <header>...</header>
+        <ul>
+            <li>Diskrepanz zwischen Mentalem Modell von Entwickler und Benutzer</li>
+            <li>Nutzungskontext: Benutzer, Aufgabe, Ausstattung, Umgebung</li>
+            <li>Herausfinden, was der Benutzer <i class="accent">wirklich</i> braucht, nicht was er glaubt zu brauchen (Nachhaken,
+                Nachhaken, Nachhaken)</li>
+        </ul>
+    </section>
 
+    <section>
+        <header>Basics of good Design</header>
+        <ul>
+            <li>1. roter Zettel</li>
+        </ul>
+    </section>
+    <section>
+        <header>Designing Good Behaviour</header>
+        <ul>
+            <li>2. roter Zettel</li>
+        </ul>
+    </section>
 
 </body>
 

@@ -1,6 +1,0 @@
-- Bilder
-- Farben
-- Nielsen kürzen (Beschreibungen)
-- Überschrift finden
-- zwei rote Zettel
-- Extra Dokument für Ziele und Vorteile UI/UX

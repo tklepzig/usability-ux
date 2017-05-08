@@ -1,5 +1,9 @@
 $foreground: #ededed;
 $background: #1d1d1d;
+$accent: #13b1ff;
+$danger: #ff5e5e;
+$success: #28ce46;
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: $background;
@@ -53,4 +57,16 @@ section {
 .break-before {
     -webkit-column-break-before: always;
     break-before: column;
+}
+
+.accent {
+    color: $accent;
+}
+
+.danger {
+    color: $danger;
+}
+
+.success {
+    color: $success;
 }

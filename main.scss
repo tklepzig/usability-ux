@@ -3,18 +3,27 @@ $background: #1d1d1d;
 $accent: #13b1ff;
 $danger: #ff5e5e;
 $success: #28ce46;
-
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: $background;
     color: $foreground;
+    font-size: 10pt;
     @media print {
         background: #fff;
-        color: #000;
+        color: #000; 
+        font-size: 9pt;
+    }
+}
+
+@media print {
+    div {
+        overflow: initial !important
     }
 }
 
 section {
+    // border: 3px solid red;
+    // margin: 8px;
     >header {
         font-weight: lighter;
         font-size: 1.3em;
@@ -25,7 +34,8 @@ section {
             border-bottom-color: (#000, 0.5);
         }
     }
-    >ul {
+    >ul,
+    >div>ul {
         >li {
             font-weight: 600;
             >span {
@@ -40,22 +50,14 @@ section {
             }
         }
     }
-    &#ucd {
-        width: 600px;
-        height: 400px;
-        background: url(images/ucd-dark.png);
-        background-size: contain;
-        background-position: center center;
-        background-repeat: no-repeat;
-        @media print {
-            background: url(images/ucd.png);
-        }
-    }
 }
 
-.break-before {
-    -webkit-column-break-before: always;
-    break-before: column;
+#ucd {
+    width: 70em;
+    @media print {
+        content: url("images/ucd.png");
+        width: 54em;
+    }
 }
 
 .accent {

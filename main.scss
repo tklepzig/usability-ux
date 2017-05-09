@@ -11,10 +11,13 @@ body {
     background: $background;
     color: $foreground;
     font-size: 10pt;
+    box-sizing: border-box;
+    padding: 12px;
     @media print {
         background: #fff;
         color: #000;
         font-size: 9pt;
+        padding: 0;
     }
 }
 

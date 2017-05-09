@@ -1,8 +1,11 @@
 $foreground: #ededed;
 $background: #1d1d1d;
 $accent: #13b1ff;
+$accent_print: #0093ff;
 $danger: #ff5e5e;
+$danger_print: #a00000;
 $success: #28ce46;
+$success_print: #008a19;
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: $background;
@@ -10,14 +13,8 @@ body {
     font-size: 10pt;
     @media print {
         background: #fff;
-        color: #000; 
+        color: #000;
         font-size: 9pt;
-    }
-}
-
-@media print {
-    div {
-        overflow: initial !important
     }
 }
 
@@ -31,7 +28,7 @@ section {
         border-bottom: 1px solid rgba($foreground, 0.5);
         line-height: 1.1;
         @media print {
-            border-bottom-color: (#000, 0.5);
+            border-bottom-color: rgba(#000, 0.5);
         }
     }
     >ul,
@@ -62,12 +59,22 @@ section {
 
 .accent {
     color: $accent;
+    font-weight: bold;
+    @media print {
+        color: $accent_print;
+    }
 }
 
 .danger {
     color: $danger;
+    @media print {
+        color: $danger_print;
+    }
 }
 
 .success {
     color: $success;
+    @media print {
+        color: $success_print;
+    }
 }

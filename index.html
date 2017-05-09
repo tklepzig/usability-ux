@@ -26,14 +26,42 @@
                     </li>
                 </ul>
             </section>
+            <section>
+                <header>Dialogprinzipien (DIN ISO 9241-110)</header>
+                <div class="layout-h">
+                    <ul class="flex">
+                        <li>Aufgabenangemessenheit
+                            <span>Geeignete Funktionalität, Minimierung unnötiger Interaktionen</span>
+                        </li>
+                        <li>Selbstbeschreibungsfähigkeit
+                            <span>Verständlichkeit durch Hilfen/Rückmeldungen</span>
+                        </li>
+                        <li>Lernförderlichkeit
+                            <span>Anleitung des Benutzers, Verwendung geeigneter Metaphern, Ziel: minimale Erlernzeit</span>
+                        </li>
+                        <li>Steuerbarkeit
+                            <span>Steuerung des Dialogs durch den Benutzer</span>
+                        </li>
+                    </ul>
+                    <ul class="flex">
+                        <li>Erwartungskonformität
+                            <span>Konsistenz, Anpassung an das Benutzermodell</span>
+                        </li>
+                        <li>Individualisierbarkeit
+                            <span>Anpassbarkeit an Bedürfnisse und Kenntnisse des Benutzers</span>
+                        </li>
+                        <li>Fehlertoleranz
+                            <span>Das System reagiert tolerant auf Fehler oder ermöglicht eine leichte Fehlerkorrektur durch den Benutzer</span>
+                        </li>
+                    </ul>
+                </div>
+            </section>
             <img id="ucd" src="images/ucd-dark.png">
-            <!--<div>Diskrepanz zwischen Mentalem Modell von Entwickler und Benutzer</div>
-            <div>Herausfinden, was der Benutzer <i class="accent">wirklich</i> braucht, nicht was er glaubt zu brauchen (Nachhaken,
-                Nachhaken, Nachhaken)</div>-->
+        </div>
+        <div class="flex">
             <div class="layout-h">
-
                 <section class="flex">
-                    <header>Basics of good Design</header>
+                    <header>Basics of Good Design</header>
                     <ul>
                         <li>Gesetz der Nähe
                             <span>Elemente mit geringen Abständen zueinander werden als zusammengehörig wahrgenommen</span>
@@ -47,7 +75,7 @@
                     </ul>
                 </section>
                 <section class="flex">
-                    <header>Regeln des Interface Design nach Shneidermann (Auszug)</header>
+                    <header>Interface Design nach Shneidermann (Auszug)</header>
                     <ul>
                         <li>Dem Benutzer Orientierung geben
                             <span>Bei Bedienschritten sollte ein Anfang, Mitte und Ende ersichtlich sein, Feedback am Ende gibt dem Benutzer ein Gefühl der Zufriedenheit</span>
@@ -58,35 +86,6 @@
                     </ul>
                 </section>
             </div>
-        </div>
-        <div class="flex">
-            <section>
-                <header>Formulierungen von (Fehler)meldungen</header>
-                <div class="layout-h">
-                    <ul class="flex">
-                        <li>Eindeutig</li>
-                        <li>Keine doppelte Verneinung
-                            <span><i class="danger">"Wollen Sie keine der Datensätze NICHT speichern?"</i></span>
-                        </li>
-                        <li>Positiv
-                            <span><i class="danger">"Wollen Sie die Datei X NICHT speichern?"</i></span>
-                        </li>
-                        <li>Bei Fehler: Ursache und Aufzeigen eines möglichen Lösungsweges</li>
-                        <li>Benutzerkontext einbeziehen
-                            <span><i class="success">"Die Datei ist zu groß, bitte komprimieren"</i> statt <i class="danger">"Soll die Datei wirklich NICHT komprimiert werden?"</i></span>
-                        </li>
-                    </ul>
-                    <ul class="flex">
-                        <li class="break-before">Auf passende Symbole achten
-                            <span>Schnellere Wahrnehmung der Dringlichkeit/Wichtigkeit der Meldung</span>
-                        </li>
-                        <li>Relative Begriffe vermeiden
-                            <span><i class="danger">"Soll Ordner Nr. 5 wirklich gelöscht werden?"</i></span>
-                        </li>
-                        <li>Meldungen gleicher Art immer an gleichen Stellen</li>
-                    </ul>
-                </div>
-            </section>
             <section>
                 <header>7 Grundsätze der Informationsdarstellung</header>
                 <div class="layout-h">
@@ -118,32 +117,29 @@
                 </div>
             </section>
             <section>
-                <header>Dialogprinzipien (DIN ISO 9241-110)</header>
+                <header>Formulierungen von (Fehler)meldungen</header>
                 <div class="layout-h">
                     <ul class="flex">
-                        <li>Aufgabenangemessenheit
-                            <span>Geeignete Funktionalität, Minimierung unnötiger Interaktionen</span>
+                        <li>Eindeutig</li>
+                        <li>Keine doppelte Verneinung
+                            <span><i class="danger">"Wollen Sie keine der Datensätze NICHT speichern?"</i></span>
                         </li>
-                        <li>Selbstbeschreibungsfähigkeit
-                            <span>Verständlichkeit durch Hilfen/Rückmeldungen</span>
+                        <li>Positiv
+                            <span><i class="danger">"Wollen Sie die Datei X NICHT speichern?"</i></span>
                         </li>
-                        <li>Lernförderlichkeit
-                            <span>Anleitung des Benutzers, Verwendung geeigneter Metaphern, Ziel: minimale Erlernzeit</span>
-                        </li>
-                        <li>Steuerbarkeit
-                            <span>Steuerung des Dialogs durch den Benutzer</span>
+                        <li>Bei Fehler: Ursache und Aufzeigen eines möglichen Lösungsweges</li>
+                        <li>Benutzerkontext einbeziehen
+                            <span><i class="success">"Die Datei ist zu groß, bitte komprimieren"</i> statt <i class="danger">"Soll die Datei wirklich NICHT komprimiert werden?"</i></span>
                         </li>
                     </ul>
                     <ul class="flex">
-                        <li>Erwartungskonformität
-                            <span>Konsistenz, Anpassung an das Benutzermodell</span>
+                        <li class="break-before">Auf passende Symbole achten
+                            <span>Schnellere Wahrnehmung der Dringlichkeit/Wichtigkeit der Meldung</span>
                         </li>
-                        <li>Individualisierbarkeit
-                            <span>Anpassbarkeit an Bedürfnisse und Kenntnisse des Benutzers</span>
+                        <li>Relative Begriffe vermeiden
+                            <span><i class="danger">"Soll Ordner Nr. 5 wirklich gelöscht werden?"</i></span>
                         </li>
-                        <li>Fehlertoleranz
-                            <span>Das System reagiert tolerant auf Fehler oder ermöglicht eine leichte Fehlerkorrektur durch den Benutzer</span>
-                        </li>
+                        <li>Meldungen gleicher Art immer an gleichen Stellen</li>
                     </ul>
                 </div>
             </section>
